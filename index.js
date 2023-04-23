@@ -45,7 +45,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "github",
+    name: "questions",
     message: "What is your github information for contact?",
   },
 
@@ -64,14 +64,6 @@ const questions = [
 ]
 
 
-
-// .then(answers => {
-//     const myReadMe = generateReadMe(answers);
-
-
-// // TODO: Create a function to write README file
-
-
 function runPrompt (){
     return inquirer.prompt(questions)
         .then ((answers) => {
@@ -81,15 +73,11 @@ function runPrompt (){
         }
 
 
-// function writeToFile(fileName, data) {}
-            )
+)
 }
    )}
-// fs.writeFile('README.md', myReadMe, (err) => {
-//     err ? console.error(err) : console.log ('Success today') 
 
-// })
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
 runPrompt()
 
