@@ -1,11 +1,11 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const { title } = require("process");
 
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
+// array of questions for user input
 
 
 const questions = [
@@ -18,7 +18,7 @@ const questions = [
     type: 'list',
     message: 'What licenses do wish to use?',
     name: 'license',
-    choices: ['MIT', 'ISC', 'MODZ', 'APACHE'],
+    choices: ['MIT', 'ISC', 'MODZ', 'APACHE', 'n/a'],
     filter(val){
         return val.toLowerCase();
     }
