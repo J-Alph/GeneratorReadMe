@@ -1,7 +1,7 @@
 
-# Grapes
+# Generator ReadMe
 
-    
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
   
   ## Table of Contents
   - [Project Description](#description)
@@ -14,29 +14,26 @@
 
 
   ## Description
-  something
+  To test the limits of the readme file generation
 
   ## Usage
-  no
+  The user will create readme files with the application
 
   ## Installation
-  no
+  run the installation file for the readme generator
 
-  ## Contribution
-  no
-
+  ## License
+  Licensed under the [MIT License](https://opensource.org/licenses/MIT) license
 
   ## Questions
-  -no
+  -https://github.com/J-Alph
 
-  -no
+  -example@gmail.com
+  
+  ## Contribution
+  n/a
 
-  
-  ## License
-  Licensed under the undefined license
-  
-  
   ## Test
-  no
+  n/a
 
-
+  ![screen-gif](./assets/images/gifreadme.gif)

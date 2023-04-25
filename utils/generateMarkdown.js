@@ -1,4 +1,4 @@
-// a function that returns a license badge based on which license is passed in
+// A function that returns a license badge based on which license is passed in
 // If there is no license, function returns an empty string
 
 function renderLicenseBadge(license) {
@@ -16,7 +16,7 @@ function renderLicenseBadge(license) {
 }
 
 
-// a function that returns the license link
+// A function that returns the license link
 // Returns an empty string without license selection
 function renderLicenseLink(license) {  
  if(license && license !== "n/a"){ 
@@ -42,7 +42,7 @@ function renderLicenseSection(license) {
 
 }
 
-// A function to generate markdown for README
+// A function to generate the markdown for README
 
 function generateMarkdown(data) {
   return `
@@ -69,24 +69,21 @@ function generateMarkdown(data) {
   ## Installation
   ${data.installation}
 
-  ## Contribution
-  ${data.contribution}
-
+  ## License
+  ${renderLicenseSection(data.license)}
 
   ## Questions
   -${data.questions}
 
   -${data.email}
+  
+  ## Contribution
+  ${data.contribution}
 
-  
-  ## License
-  ${renderLicenseSection(data.license)}
-  
-  
   ## Test
   ${data.test}
 
-
+  ![screen-gif](./assets/images/gifreadme.gif)
 `;
 }
 

@@ -5,7 +5,7 @@ const { title } = require("process");
 
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// array of questions for user input
+// Array of questions for user input
 
 
 const questions = [
@@ -41,7 +41,7 @@ const questions = [
   {
     type: "input",
     name: "contribution",
-    message: "What makes your project stand out?",
+    message: "How to contribute?",
   },
   {
     type: "input",
